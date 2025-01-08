@@ -1,9 +1,8 @@
 {
-    "rewrites": [
-      {
-        "source": "/(.*)",
-        "destination": "http://35.201.88.44/:path*"
-      }
-    ]
-  }
-  
+  "rewrites": [
+    {
+      "source": "/:path*",
+      "destination": "http://35.201.88.44/:path*"
+    }
+  ]
+}
